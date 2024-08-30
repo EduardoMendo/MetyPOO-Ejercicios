@@ -15,4 +15,19 @@ public class Circle {
         this.area = area;
     }
 
+    public Circle(double radius){
+        this.radius = radius;
+    }
+
+    public double getRadius() {
+        return radius;
+    }
+
+    public void setRadius(double radius) {
+        this.radius = radius;
+    }
+
+    public double getCircunferencia() {
+        return circunferencia;
+    }
 }
