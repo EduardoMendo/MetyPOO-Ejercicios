@@ -14,8 +14,7 @@ public class Main {
        String menu = "1. Agregar estudiantes\n" +
                "2. Buscar estudiante\n" +
                "3. Mostrar estudiante\n" +
-               "4. Mostrar estudiante\n" +
-               "5. Salir";
+               "4. Salir";
 
        int option = 0;
 
@@ -46,8 +45,6 @@ public class Main {
                students.showStudents();
                break;
            case 4:
-               
-           case 5:
                System.out.println("Salir");
                break;
            default:
